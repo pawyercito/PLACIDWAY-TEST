@@ -1,0 +1,24 @@
+.icono {
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    /* Estilos adicionales para el icono */
+    font-size: 20px;
+    color: red;
+    padding: 4px;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilos para pantallas más pequeñas que 767px */
+@media (max-width: 767px) {
+    .icono {
+      /* Estilos adaptados para pantallas más pequeñas */
+      font-size: 40px;
+      top: 11%;
+      right: 1%;
+    }
+}
+
+.checked {
+    color: orange;
+}
